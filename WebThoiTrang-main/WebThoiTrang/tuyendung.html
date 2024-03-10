@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tuyển dụng</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="tuyendung.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <br/>
+            <p>Thời Trang VT</p>
+        </div>
+        <div class="block">
+            <div class="menu">
+                <ul class="root">
+                    <li><a href="cuahang.html">TRANG CHỦ</a></li>
+                        <li><a href="gioithieucuahang.html">GIỚI THIỆU</a></li>
+                        <li><a href="">CÁC SẢN PHẨM
+                            <ul class=sub-menu>
+                                <li><a href="thoitrangnam.html">Thời Trang Nam</a></li>
+                                <li><a href="thoitrangnu.html">Thời Trang Nữ</a></li>
+                                <li><a href="phukien.html">Phụ Kiện</a></li>
+                            </ul>
+                            </a> 
+                        </li>
+                    <li><a href="lienhenhahang.html">LIÊN HỆ</a></li>
+                    <li><a href="tuyendung.html">TUYỂN DỤNG</a></li>
+                    <li><a href="giohang.html">GIỎ HÀNG</a></li>
+                    <li><a href="dangnhap.html">ĐĂNG NHẬP</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input id="myInput" type="text" placeholder="Tìm kiếm sản phẩm.....">
+               <ul id="myUL">
+                   <li><a href="aosominam.html">Áo Sơ Mi Nam</a></li>
+                   <li><a href="aoblazer.html">Áo Blazer Nam</a></li>
+                   <li><a href="aohoodie.html">Áo Hoodie Nam</a></li>
+                   <li><a href="quanbaggynam.html">Quần Baggy Nam</a></li>
+                   <li><a href="quantayau.html">Quần Tây Âu</a></li>
+                   <li><a href="quạnogger.html">Quần Jogger</a></li>
+                   <li><a href="aosweater.html">Áo Sweater Nữ</a></li>
+                   <li><a href="aobabydoll.html">Áo Baby Doll</a></li>
+                   <li><a href="aosominu.html">Áo Sơ Mi Nữ</a></li>
+                   <li><a href="vayombody.html">Váy Ôm Body</a></li>
+                   <li><a href="chanvaychua.html">Chân Váy Chữ A</a></li>
+                   <li><a href="quanbagynu.html">Quần Baggy Nữ</a></li>
+                   <li><a href="phukien.html">Mũ Bucket</a></li>
+                   <li><a href="phukien.html">Kính Ngố</a></li>
+                   <li><a href="phukien.html">Thắt Lưng</a></li>
+                   <li><a href="phukien.html">Tất Cute</a></li>
+                   <li><a href="phukien.html">Túi đeo chéo</a></li>
+               </ul>
+              
+            </div>
+        </div>
+        <div id="appform">
+            <div class="wrapper">
+                <h1 style="color: rgb(255, 0, 0);text-shadow:0px 0px 3px orangered;">Nộp đơn ứng tuyển công việc</h1>
+                <div class="from">
+                    <from method="POST" enctype="multipart/form-data" action="apply"></from>
+                    <div class="row xo">
+                        <div class="laber">
+                            Họ và tên bạn
+                            <span class="red">*</span>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="name" placeholder="Họ và tên bạn">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="laber">
+                            Địa chỉ email
+                            <span class="red">*</span>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="email" placeholder="Địa chỉ email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="laber">
+                            Số điện thoại (Phone)
+                            <span class="red">*</span>
+                        </div>
+                        <div class="input">
+                            <input type="text" name="phone" placeholder="Số điện thoại">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="laber">
+                            Ngày tháng năm sinh (Date of birth)
+                            <span class="red">*</span>
+                        </div>
+                        <div class="input">
+                            <input type="date" name="bday">
+                        </div>
+                    </div>
+                    <div class="rows">
+                        <div class="row">
+                            <div class="laber">
+                                Trình độ học vấn (Education)
+                                <span class="red">*</span>
+                            </div>
+                            <div class="select">
+                                <select data-cid="education" name="education">
+                                <option value="__select__">-- Trình độ học vấn (Education) --</option>
+                                <option value="Phổ thông (High school)">Phổ thông (High school)</option>
+                                <option value="Trung cấp (Intermediate)">Trung cấp (Intermediate)</option>
+                                <option value="Cao đẳng (College)">Cao đẳng (College)</option>
+                                <option value="Đại học (University)">Đại học (University)</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="laber">
+                                Vị trí muốn ứng tuyển (The position you want to apply for) &nbsp;
+                                <span class="red">*</span>
+                            </div>
+                            <div class="select">
+                                <select data-cid="apply" name="The position you want to apply for">
+                                <option value="__select__">-- Vị trí muốn ứng tuyển (The position you want to apply for) --</option>
+                                <option value="Nhân viên (Personnel)">Nhân viên (Personnel)</option>
+                                <option value="Chăm sóc khách hàng(Customer care)">Chăm sóc khách hàng(Customer care)</option>
+                                <option value="Thu ngân (Cashier)">Thu ngân (Cashier)</option>
+                                <option value="Bảo vệ (Security)">Bảo vệ (Security)</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="laber">
+                                Số CMND/Căn cước
+                                <span class="red">*</span>
+                            </div>
+                            <div class="input">
+                                <input type="text" data-cid="so_cmndcan_cuocho_chieu" name="so_cmndcan_cuocho_chieu" placeholder>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="laber">
+                                Địa chỉ hiện tại (Current address)
+                                <span class="red">*</span>
+                            </div>
+                            <div class="input">
+                                <input type="text" data-cid="dia_chi_hien_tai" name="dia_chi_hien_tai" placeholder="Số nhà, Đường, Phường, Quận">
+                            </div>
+                        </div>
+                        <div class="input">
+                            <input type="checkbox" data-cid="cam_doan_thong_tin_chinh_xac" name="cam_doan_thong_tin_chinh_xac" value="cam doan"> Tôi cam đoan thông tin trên là chính xác <br>
+                            <input type="checkbox" data-cid="dong_y_ung_tuyen_vao_cua_hang" name="dong_y" value="dong y"> Tôi đồng ý ứng tuyển vào cửa hàng
+                        </div>
+                        <div class="hoverdt"><input type="submit" value="Ứng tuyển"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="thanhtimkiem.js" type="text/javascript"></script>
+</body>
+
+</html>
